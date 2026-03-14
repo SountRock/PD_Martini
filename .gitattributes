@@ -1,3 +1,7 @@
+analysis filter=lfs diff=lfs merge=lfs -text
+analysis/* filter=lfs diff=lfs merge=lfs -text
+bilayer/* filter=lfs diff=lfs merge=lfs -text
+xvg/* filter=lfs diff=lfs merge=lfs -text
 analysis/** filter=lfs diff=lfs merge=lfs -text
 bilayer/** filter=lfs diff=lfs merge=lfs -text
 xvg/** filter=lfs diff=lfs merge=lfs -text
